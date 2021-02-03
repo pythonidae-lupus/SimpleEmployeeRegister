@@ -1,0 +1,19 @@
+{
+  "name": "emprecord",
+  "version": "1.0.0",
+  "description": "display employee list and add new employees",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "yajur sood",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nanoid": "^3.1.20",
+    "nodemon": "^2.0.7"
+  }
+}
