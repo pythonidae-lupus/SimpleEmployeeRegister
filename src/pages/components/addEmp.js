@@ -3,8 +3,8 @@ import {useForm} from 'react-hook-form';
 
 const AddEmp = (props) =>{
     const { register, handleSubmit, watch, errors } = useForm();
-    const addEmployee=(data)=>{
-        console.log('hello')
+    const addEmployee=(data, e)=>{
+        e.target.reset();
         fetch('http://localhost:8000', {
             method: 'POST',
             headers: {
