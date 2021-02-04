@@ -1,3 +1,75 @@
+# Resources required 
+
+Node.js
+npm
+
+https://nodejs.org/en/download/
+ -------------------------------------
+MySQL
+
+https://www.apachefriends.org/index.html
+
+(Because I used the xampp server)
+
+----------------------------------------
+React.js
+
+npm install react
+
+---------------------------------------
+express
+npm install express
+
+-------------------------------------------
+# Step 1
+
+Create a databse  in xampp called Employee
+
+use the GUI at localhost/myphpadmin (make sure the Xampp server and mysql are running)
+ or
+use the query
+CREATE DATABASE Employee;
+
+------------------------------------------
+# Step 2
+
+Create a table called Employee inside the database Employee
+
+Use GUI 
+
+or
+
+CREATE TABLE Employee (id VARCHAR(256), name TEXT, salary INT, age INT, PRIMARY KEY(id));
+
+or
+
+go into the API folder and run seeds.js
+cd API
+node seeds.js
+------------------------------------------
+# Step 3
+
+Download Github repo 
+
+then using command line/terminal 
+cd SimpleEmployeeRegister
+------------------------------------------
+# Step 4
+
+cd API
+npm run start
+------------------------------------------
+# Step 5
+
+Open new terminal
+again cd SimpleEmployeeRegister
+npm start
+------------------------------------------
+Application should work
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
